@@ -1,0 +1,4 @@
+include ':aSpice', ':app', ':freeRDPCore'
+include ':pubkeyGenerator'
+include ':zoomerWithKeys'
+project(':freeRDPCore').projectDir = new File('freeRDp/freeRDPCore')

@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">KST-Login</string>
+
+    <!-- Login Activity -->
+    <string name="login_title">KST-Login</string>
+    <string name="login_subtitle">Bitte logge dich mit deinen MTS-Logindaten ein</string>
+    <string name="login_name_hint">Nachname.Vorname</string>
+    <string name="login_password_hint">Passwort</string>
+    <string name="login_login_button">Einloggen</string>
+    <string name="login_wait_authentification">Authentifiziere...</string>
+
+    <!-- Main Activity -->
+    <string name="activity_main_navigationdrawer_title">Eingeloggt als:</string>
+    <string name="acitivty_main_check_authentification">Prüfe Zugangsdaten</string>
+
+    <!-- Navigation-Drawer -->
+    <string name="close_drawer">close</string>
+    <string name="open_drawer">open</string>
+    <string name="drawer_vmlist">VM-Liste</string>
+    <string name="drawer_mtsweb">MTS-Web</string>
+    <string name="drawer_changekeyboard">Tastatur ändern</string>
+
+    <!-- VM List -->
+    <string name="fragment_vmlist_vm_not_available">Die Virtuelle Maschine ist nicht gestartet</string>
+    <string name="fragment_vmlist_assigning_vm">VM wird zugewiesen</string>
+    <string name="error_spice_not_installed">Die "aSpice"-App ist nicht installiert</string>
+
+    <!-- VM-List Details -->
+    <string name="activity_vmlist_details_toolbar">Info: </string>
+    <string name="activity_vmlist_copy_info">wurde erfolgreich kopiert</string>
+
+    <!-- App-Intro -->
+    <string name="activity_appintro_welcome_text">
+        Willkommen in der App des Kolleg St. Thomas\n\n
+        Diese App ermöglicht es dir mit den Computern der Schule zu arbeiten und einfach Dateien auszutauschen.\n\n
+        <b>Bitte lese dir alle Schritte gründlich durch!</b>
+    </string>
+
+    <!-- App-Intro aSpice -->
+    <string name="appintro_fragment_aspice_title">Verbindungssoftware</string>
+    <string name="appintro_fragment_aspice_description">Um dich mit einem Computer in der Schule zu verbinden, benötigst du die App "aSpice".</string>
+    <string name="appintro_fragment_aspice_not_allowed">Bitte installiere zunächst die App</string>
+    <string name="appintro_fragment_aspice_download">Herunterladen</string>
+    <string name="appintro_fragment_aspice_already_installed">Super!\nDu hast die App installiert.</string>
+
+    <string name="appintro_fragment_instruction_title">Anleitung</string>
+    <string name="appintro_fragment_instruction_description">
+        Verbinden:
+    </string>
+
+
+    <!-- App-Intro Keyboard -->
+    <string name="appintro_fragment_keyboard_title">Tastaturlayout</string>
+
+    <string name="appintro_fragment_keyboard_install_description">
+        Um eine optimale Bedienung zu gewährleisten sollte eine andere Tastatur installiert werden.\n
+        Diese heißt "Hackers Keyboard", hat aber nichts damit zu tun. Also keine Angst :)\n
+        Nach der Installation kehre wieder in diese App zurück!
+    </string>
+    <string name="appintro_fragment_keyboard_install_button">Herunterladen</string>
+
+    <string name="appintro_fragment_keyboard_setup_description">
+        Super! Die App ist installiert. Nun musst du diese Tastatur in deinen Einstellungen aktivieren.\n\n
+        Einfach bei "Hackers Keyboard" den Haken aktivieren.\n
+        Nach dem Aktivieren kehre wieder in diese App zurück
+    </string>
+    <string name="appintro_fragment_keyboard_setup_button">Aktivieren</string>
+
+    <string name="appintro_fragment_keyboard_setdefault_description">
+        Das hat super geklappt!\n
+        Jetzt musst du die Tastatur nur noch als deine Standardtastatur setzen.\n
+        Wichtig: Du kannst deine bisherige Tastatur "__currentkeyboard__" jederzeit in den Einstellungen oder hier in der App unter Einstellungen wieder zurücksetzen.
+    </string>
+    <string name="appintro_fragment_keyboard_setdefault_button">Standard setzen</string>
+
+    <string name="appintro_fragment_keyboard_finish_description">Wir haben es geschafft!</string>
+
+    <string name="appintro_fragment_keyboard_dont_install">Nein, möchte ich nicht und ich bin mir bewusst, dass eine Bedienung eventuell nicht möglich ist.</string>
+
+    <!-- App-Intro Ende -->
+    <string name="appintro_fragment_finish_title">Fertig</string>
+    <string name="appintro_fragment_finish_description">Viel Spaß mit der App! :)</string>
+
+    <!-- API FEHLER -->
+    <string name="error_connection_problem">Daten konnten nicht geladen werden</string>
+    <string name="error_json_parsing">Beim lesen der Daten ist ein Fehler aufgetreten</string>
+    <string name="error_unknown">Ein unbekannter Fehler ist aufgetreten</string>
+
+    <string name="error_invalid_action">Ungültige Aktion</string>
+    <string name="error_invalid_arguments">Ungültige Argumente</string>
+    <string name="error_invalid_credentials">Die Zugangsdaten sind falsch</string>
+    <string name="error_fosscloud_ldap_error">Deinem Benutzer wurde vermutlich noch keine E-Mail zugewiesen. Bitte wende dich an den Systemadministrator</string>
+    <string name="error_internal_error">Interner Serverfehler</string>
+
+    <string name="error_not_enough_permission">Der Nutzer hat nicht genug Rechte</string>
+    <string name="error_no_free_vms">Aktuell sind keine VMs verfügbar</string>
+
+    <string name="error_assign_error">Es gab ein Fehler beim zuweisen der VM</string>
+    <string name="error_assign_no_vm_available">Es sind keine VMs verfügbar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Menü -->
+    <string name="menu_logout">Ausloggen</string>
+    <string name="menu_settings">Einstellungen</string>
+
+    <!-- Toolbar Titles -->
+    <string name="toolbar_settings">Einstellungen</string>
+    <string name="toolbar_vmlist">VM-Liste</string>
+    <string name="toolbar_mtsweb">MTSWeb</string>
+
+    <!-- Preferences -->
+    <string name="preference_resolution_name">Auflösung</string>
+    <string name="preference_resolution_summary">Erzwingt eine Aufösung im VM-Betrachter</string>
+    <string name="preference_resolution_defaultValue">Automatisch</string>
+    <string name="preference_resolution_key">preference_resolution</string>
+</resources>

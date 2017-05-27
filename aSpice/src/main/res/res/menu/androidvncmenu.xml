@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemSaveAsCopy" android:alphabeticShortcut="c"
+        android:numericShortcut="1" android:title="@string/save_as_copy" />
+    <item android:id="@+id/itemDeleteConnection" android:alphabeticShortcut="d"
+        android:numericShortcut="2" android:title="@string/delete_connection" />
+    <item android:id="@+id/itemMainScreenHelp" android:title="@string/main_screen_help" />
+    <item android:id="@+id/itemExportImport" android:title="@string/import_export_settings" />
+    <item android:id="@+id/itemMasterPassword" android:checkable="true"
+        android:title="@string/master_password_enable" />
+    <item android:id="@+id/itemKeepScreenOn" android:checkable="true"
+        android:title="@string/keep_screen_awake_enable" />
+    <item android:id="@+id/itemDisableImmersive" android:checkable="true"
+        android:title="@string/immersive_mode_disable" />
+    <item android:id="@+id/itemForceLandscape" android:checkable="true"
+        android:title="@string/landscape_force" />
+    <item android:id="@+id/itemRAltAsIsoL3Shift" android:checkable="true"
+        android:title="@string/right_alt_as_iso_l3_shift" />
+    <item android:id="@+id/itemLeftHandedMode" android:checkable="true"
+        android:title="@string/left_handed_mode" />
+</menu>

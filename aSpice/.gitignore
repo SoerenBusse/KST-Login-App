@@ -1,0 +1,4 @@
+/build
+/libs/*.jar
+/src/main/jniLibs\ -\ Kopie
+/src/main/jniLibs/*.so

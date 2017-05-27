@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="md_background_color">@color/colorPrimary</item>
+        <item name="md_widget_color">@color/colorWhite</item>
+        <item name="md_title_color">@color/colorWhite</item>
+        <item name="md_content_color">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.LoginActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FFF</item>
+
+        <item name="colorControlNormal">#e0e0e0</item>
+        <item name="android:textColorHint">#e0e0e0</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="md_background_color">@color/colorPrimary</item>
+    </style>
+</resources>

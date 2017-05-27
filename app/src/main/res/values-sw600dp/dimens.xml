@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="activity_layout_margin_side">200dp</dimen>
+    <dimen name="activity_news_detail_max_height">0dp</dimen>
+
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+    <style name="NavDrawer">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+</resources>
+

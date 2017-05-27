@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorPrimaryButtonClick">#0D47A1</color>
+
+    <!-- Status Farben -->
+    <color name="colorStatusOnline">#4caf50</color>
+    <color name="colorStatusOffline">#f44336</color>
+    <color name="colorStatusAssignable">#2196f3</color>
+    <color name="colorStatusAssigned">#673ab7</color>
+</resources>
